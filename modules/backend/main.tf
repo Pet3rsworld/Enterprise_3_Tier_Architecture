@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "terraform_state" {
   }
 
   tags = {
-    Name = "My terraform state bucket"
+    Name = "${var.project_name}-my-terraform-state-bucket"
   }
 }
 
@@ -51,7 +51,7 @@ resource "aws_dynamodb_table" "Table_SL" {
   }
 
   tags = {
-    Name = "dynamodb-state-locking"
+    Name = "${var.project_name}-dynamodb-state-locking"
   }
 }
 
