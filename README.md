@@ -101,7 +101,7 @@ terraform init
 terraform plan
 
 # Inject Secure Database Passwords
-export TF_VAR_rds_password="SuperSecret123!"
+"SuperSecret123!"
 
 # Apply the infrastructure
 terraform apply
