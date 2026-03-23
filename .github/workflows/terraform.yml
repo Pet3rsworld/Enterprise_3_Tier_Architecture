@@ -34,4 +34,6 @@ jobs:
         run: terraform validate
 
       - name: "Terraform Plan (Execution Preview)"
+        env:
+          TF_VAR_rds_password: ${{ secrets.TF_VAR_RDS_PASSWORD }}
         run: terraform plan
