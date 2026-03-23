@@ -1,6 +1,6 @@
 # 🚀 Enterprise 3-Tier Architecture
 
-*A highly available, fault-tolerant networking infrastructure deploying NGINX, EC2 Auto Scaling, and AWS RDS through Terraform.*
+*A highly available, fault-tolerant networking infrastructure deploying NGINX, EC2 Auto Scaling and AWS RDS through Terraform.*
 
 ## 🛠️ Core Technologies
 
