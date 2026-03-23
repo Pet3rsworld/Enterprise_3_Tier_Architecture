@@ -112,7 +112,7 @@ terraform apply
 
 *This project is designed to showcase a 3-tier enterprise architecture.Therefore, it should be noted that some resources are not free. NAT Gateways cost roughly ~$0.045 per hour. Always make sure you use `terraform destroy` upon complettion to avoid any unexpected AWS billing.*
 
-## 🧑‍💻 Author & Links
+## 🧑‍💻 Author
 
 * **Name:** Peter Mkhatshwa
 * **Focus:** Cloud Computing
